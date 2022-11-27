@@ -16,14 +16,14 @@ function Navbar() {
     return (
         <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className={nav ? 'logo dark' : 'logo'}>
-                <h2>BEACHES.</h2>
+                <h2>hehe logo hapa</h2>
             </div>
             <ul className="nav-menu">
                 <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
-                <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
-                <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
-                <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='destinations' smooth={true} duration={500} ><li>about</li></Link>
+                <Link to='carousel' smooth={true} duration={500} ><li>officials</li></Link>
+                <Link to='search' smooth={true} duration={500} ><li>news and events</li></Link>
+                <Link to='views' smooth={true} duration={500} ><li>contact us</li></Link>
             </ul>
             <div className="nav-icons">
                 <BiSearch className='icon' style={{ marginRight: '1rem' }} />

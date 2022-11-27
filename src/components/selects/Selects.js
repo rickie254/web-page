@@ -14,14 +14,14 @@ import SelectsImg from '../SelectsImg/SelectsImg'
 function Selects() {
     return (
         <div name='views' className='selects'>
-            <div className='container'>
+            {/* <div className='container'>
                 <SelectsImg bgImg={BoraBora} text='Bora Bora' />
                 <SelectsImg bgImg={BoraBora2} text='Emerald Bay' />
                 <SelectsImg bgImg={Maldives} text='Maldives' />
                 <SelectsImg bgImg={Maldives2} text='Grenada' />
                 <SelectsImg bgImg={Maldives3} text='Barbados' />
                 <SelectsImg bgImg={KeyWest} text='Key West' />
-            </div>
+            </div> */}
 
         </div>
     )
