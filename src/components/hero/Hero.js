@@ -12,7 +12,7 @@ function Hero() {
             </video>
             <div className="overlay"></div>
             <div className="content">
-            <button>Join Us </button>
+            <button type="button" class="btn btn-warning">Join us </button>
                 <h3>Kenya Association Of Records Managers & Archivists </h3>
                 
                 {/* <form className="form">

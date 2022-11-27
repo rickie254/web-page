@@ -8,7 +8,9 @@ function Footer() {
         <div className='footer'>
             <div className="container">
                 <div className="top">
-                    <h3>haha logo hapa</h3>
+                <div className="navItem">
+            <img src='https://karma.co.ke/wp-content/uploads/2022/03/Karma-Website-Logo.png' alt="" width={450} height={100} />
+            </div>
                     <div className="social">
                         <FaFacebook className='icon' />
                         <FaInstagram className='icon' />

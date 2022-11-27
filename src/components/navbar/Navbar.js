@@ -16,7 +16,10 @@ function Navbar() {
     return (
         <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className={nav ? 'logo dark' : 'logo'}>
-                <h2>hehe logo hapa</h2>
+            <div className="navItem">
+            <img src='https://karma.co.ke/wp-content/uploads/2022/03/Karma-Website-Logo.png' alt="" width={450} height={100} />
+            </div>
+                {/* <h2>hehe logo hapa</h2> */}
             </div>
             <ul className="nav-menu">
                 <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
@@ -25,10 +28,12 @@ function Navbar() {
                 <Link to='search' smooth={true} duration={500} ><li>news and events</li></Link>
                 <Link to='views' smooth={true} duration={500} ><li>contact us</li></Link>
             </ul>
-            <div className="nav-icons">
+            <button type="button" class="btn btn-warning">membership</button>
+            <button type="button" class="btn btn-primary">login</button>
+            {/* <div className="nav-icons">
                 <BiSearch className='icon' style={{ marginRight: '1rem' }} />
                 <BsPerson className='icon' />
-            </div>
+            </div> */}
             <div className="hamburger" onClick={handleNav}>
                 {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: '#000' }} className='icon' />)}
 
@@ -36,14 +41,16 @@ function Navbar() {
 
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
-                <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
-                <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
-                <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
-                <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='home' smooth={true} duration={500} ><li>HOME</li></Link>
+                <Link to='destinations' smooth={true} duration={500} ><li>ABOUT</li></Link>
+                <Link to='carousel' smooth={true} duration={500} ><li>OFFICIALS</li></Link>
+                <Link to='search' smooth={true} duration={500} ><li>NEWS AND EVENTS</li></Link>
+                <Link to='views' smooth={true} duration={500} ><li>CONTACTS US </li></Link>
                 </ul>
                 <div className="mobile-menu-bottom">
                     <div className="menu-icons">
+                        <button type="button" class="btn btn-membership">membership</button>
+                        <button type="button" class="btn btn-login">login</button>
                         <button>Search</button>
                         <button>Account</button>
                     </div>
