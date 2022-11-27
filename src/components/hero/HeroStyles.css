@@ -33,7 +33,9 @@
     margin: auto;
     padding: 1rem;
 }
-
+.hero1{
+    color: rgb(247, 243, 243);
+}
 .form {
     display: flex;
     background-color: #ffffffcc;

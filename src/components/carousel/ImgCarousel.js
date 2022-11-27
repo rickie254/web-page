@@ -12,18 +12,7 @@ function ImgCarousel() {
     return (
         <div name='carousel' className='container'>
             <Carousel className='carousel' showArrows={true} autoPlay={false} infiniteLoop={true} >
-                <div>
-                    <img src={BoraBora} alt='/' />
-                    {/* <p className="legend">Maldives 1</p> */}
-                </div>
-                <div>
-                    <img src={BoraBora2} alt='/' />
-                    {/* <p className="legend">Legend 2</p> */}
-                </div>
-                <div>
-                    <img src={Maldives} alt='/' />
-                    {/* <p className="legend">Legend 3</p> */}
-                </div>
+                
             </Carousel>
         </div>
 
